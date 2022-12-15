@@ -14,5 +14,5 @@ Controls:
 - Press `q` on the keyboard to exit the program  
 
 ### Modeling  
-Run the `model.py` file to start modeling with the dataset collected previously. The model is saved inside the `Model` folder.
-To be 
+Run the `model.py` file to start modeling with the dataset collected previously. The model is saved inside the `Model` folder.  
+To be continued...
