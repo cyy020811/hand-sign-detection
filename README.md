@@ -6,7 +6,7 @@ The purpose of this project is to build a program that can detect alphabetical s
 ### Task 1: Data Collection and Preprocessing
 The hand landmarks are represented in 2D coordinates based on their absolute positions within the webcam. Hence, the coordinate of `WRIST` is used as the origin to obtain the relative coordinates of other landmarks in order to ensure that all hand signs can be detected regardless of the hand's position within the camera range. Also, considering that the user's hand might rotate, the coordinates are rotated according to the degree between the line connecting `WRIST` and `INDEX_FINGER_MCP` and the y-axis. Lastly, divide all coordinates by absolute value of the largest x- or y-coordinate to normalise the data.
 
-[hand landmarks image]
+![image](hand_landmarks.png)
 
 #### Instructions
 Run the `dataCollection.py` file to collect dataset for modeling. The collected data is stored inside the `Data` folder as csv file with respect to the name of the file.  
