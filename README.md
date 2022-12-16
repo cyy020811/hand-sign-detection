@@ -34,4 +34,5 @@ An interactive app that helps the user to practice alphabetical sign language by
 2. Choose a difficulty
 3. Press `start` to begin playing
 4. The result will be shown after the game finishes
+5. Press `close` to exit the app 
 
