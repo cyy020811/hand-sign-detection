@@ -14,8 +14,24 @@ Run the `dataCollection.py` file to collect dataset for modeling. The collected 
 - Press `s` on the keyboard to save data
 - Press `q` on the keyboard to exit the program  
 
-### Task 2: Modeling  
-Run the `model.py` file to start modeling with the dataset collected previously. The model is saved inside the `Model` folder.  
+### Task 2: Modeling
+Read in all the csv files into a dataframe. Shuffle the entire dataframe then perform a 20/80 training-test split. Fit the training dataset into the model and use the testing dataset to validate the accuracy of the model. The accuracy and loss history after each epoch can be checked in the plot generated after fitting the model.
+
+#### Instructions
+Run the `model.py` file to start modeling with the dataset collected previously. The model is saved inside the `Model` folder. 
 
 ### Task 3: Testing
-To be continued...
+A simple testing program that allows the user to examine performance of the model. Try out some signs and see if the model can correctly classified the corresponding signs.
+
+#### Instructions
+Run the `test.py` file to start testing the 
+
+### Application: Speedy Hand Sign Game
+An interactive app that helps the user to practice alphabetical sign language by playing a speed spelling game with sign language.
+
+#### Instructions
+1. Run the `app.py` file
+2. Choose a difficulty
+3. Press `start` to begin playing
+4. The result will be shown after the game finishes
+
