@@ -24,7 +24,7 @@ Run the `model.py` file to start modeling with the dataset collected previously.
 A simple testing program that allows the user to examine performance of the model. Try out some signs and see if the model can correctly classified the corresponding signs.
 
 #### Instructions
-Run the `test.py` file to start testing the 
+Run the `test.py` file to start testing. 
 
 ### Application: Speedy Hand Sign Game
 An interactive app that helps the user to practice alphabetical sign language by playing a speed spelling game with sign language.
